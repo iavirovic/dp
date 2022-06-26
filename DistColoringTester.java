@@ -1,7 +1,4 @@
-public class DistColoringTester implements FuncUser {
-    public int func(int x, int y) {
-        return Math.max(x, y);
-    }
+public class DistColoringTester {
 
     public static void main(String[] args) throws Exception {
         String baseName = args[0];

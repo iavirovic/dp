@@ -29,7 +29,7 @@ public class Topology {
 
     public static void readOne(int id, IntLinkedList neighbors) throws FileNotFoundException, IOException {
         BufferedReader dIn = new BufferedReader(
-				new FileReader("topology1/topology" + id));
+				new FileReader("topology2/topology" + id));
             StringTokenizer st = new StringTokenizer(dIn.readLine());
         while (st.hasMoreTokens()) {
             int neighbor = Integer.parseInt(st.nextToken());
